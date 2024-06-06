@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --color1: rgb(4, 43, 43);
+    --color2: rgb(189, 124, 38);
+    --color3: rgb(166, 4, 4);
+    --color4: rgb(255, 255, 255);
+    --color5: rgb(0, 0, 0);
+}
+
+body {
+    font-family: "PT Serif", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--color1);
+    padding: 1rem;
+}
+
+nav h1 {
+    text-align: center;
+    color: var(--color4);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav a {
+    color: var(--color4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links:hover {
+    background-color: var(--color3);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+ul li {
+    margin-top: 5px;
+}
+
+.logo img {
+    width: 300px;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--color4);
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+main {
+    padding: 2rem;
+}
+
+main p {
+    font-size: 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--color4);
+    border-radius: 8px;
+    text-align: center;
+}
+
+section img {
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+h2 {
+    color: var(--color2);
+    font-size: 30px;
+}
+
+footer {
+    background-color: var(--color1);
+    color: var(--color4);
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
