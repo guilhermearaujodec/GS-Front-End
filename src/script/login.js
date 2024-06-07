@@ -3,7 +3,7 @@ window.onload = function() {
     alert("Faça o seu login");
   }
 
-// Disposição para dispositivos mobiles
+// Disposição para dispositivos móveis
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
       this.mobileMenu = document.querySelector(mobileMenu);
@@ -49,15 +49,15 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-//Validação do login
+// Validação do login
 function validar(){
 
-    //declarando as variáveis 
+    // Declarando as variáveis 
     let usuario =document.getElementById("usuario").value;
     let senha =document.getElementById("senha").value;
   
     if(usuario ==="Admin" && senha ==="12345"){
-        window.open("index.html")                 //retorna para a página home após feito o login
+        window.open("index.html")                 // Retorna para a página home após feito o login
     }else{
         alert("usuario e senha inválidos")
     }

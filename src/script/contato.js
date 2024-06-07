@@ -3,7 +3,7 @@ window.onload = function() {
     alert("Envie uma mensagem!!");
   }
 
-// Disposição para dispositivos mobiles
+// Disposição para dispositivos móveis
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
       this.mobileMenu = document.querySelector(mobileMenu);
