@@ -184,6 +184,22 @@ footer {
     .menu-mobile.ativo .linha3 {
       transform: rotate(45deg) translate(-5px, -6px);
     }
+
+    #h2login{
+        display: flex;
+        justify-content: start;
+        width: 40vh;
+        height: 20vh;
+        gap: 5px;
+        
+    }
+    #info{
+        display: flex;
+        justify-content: start;
+        width: 40vh;
+        height: 20vh;
+        gap: 5px
+    }
   }
 
   /*Config. Contato*/
