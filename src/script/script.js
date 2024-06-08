@@ -80,3 +80,5 @@ function nextSlide() {
 function prevSlide() {
     showSlide(currentIndex - 1);
 }
+
+setInterval(nextSlide, 3000);
